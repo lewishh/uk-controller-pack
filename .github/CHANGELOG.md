@@ -3,6 +3,7 @@
 2. Bug - Fixed incorrect runway in use for EGSS (Stansted) in vATIS area profiles
 3. Enhancement - Amended radar track symbols on NERC (LAC) profiles
 4. Procedure Change (2602) - Updated Polaris ENOR frequencies in VACS configuration
+x. x. Enhancement - Updated CDM to v2.2.8.24 - thanks to @MrAdder (Daniel Green)
 
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
