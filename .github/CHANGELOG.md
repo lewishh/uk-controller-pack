@@ -3,6 +3,7 @@
 2. Bug - Fixed incorrect runway in use for EGSS (Stansted) in vATIS area profiles
 3. Enhancement - Amended radar track symbols on NERC (LAC) profiles
 4. Procedure Change (2602) - Updated Polaris ENOR frequencies in VACS configuration
+x. Procedure Change (2602) - Incorporate Biggin Hill ground - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
