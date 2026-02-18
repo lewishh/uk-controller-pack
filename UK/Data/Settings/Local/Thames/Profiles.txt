@@ -39,3 +39,4 @@ PROFILE:EGMC_L_APP:100:5
 ATIS2:Southend Radar
 ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
+END
