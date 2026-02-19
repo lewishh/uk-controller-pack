@@ -27,6 +27,7 @@ Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\Screen.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
 Settings	performance	\..\Data\Datafiles\Performance.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 LastSession	server	AUTOMATIC
 LastSession	atis_url0	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&metar=$metar($atisairportA)
 LastSession	atis_url1	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&metar=$metar($atisairportB)

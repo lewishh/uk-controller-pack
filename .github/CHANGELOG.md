@@ -18,6 +18,7 @@
 17. Enhancement - Updated CDM to v2.2.8.24 - thanks to @MrAdder (Daniel Green)
 18. AIRAC (2602) - Defined EGR162 and removed RA(T) SNESS - thanks to @Liaely (Lily Unitt)
 19. Procedure Change (2602) - Incorporate Biggin Hill ground - thanks to @lucak1011 (Luca Kulaga)
+20. Bug - Fixed missing Sector File Descriptor in the Farnborough (EGLF) profile - Thanks to @MrAdder (Daniel Green)
 
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
