@@ -11,6 +11,12 @@ NOVA_Path = 'UK/Data/Plugin/TopSky_NOVA/'
 MIL_Path = 'UK/Data/Plugin/TopSky_MIL/'
 Shared_Path = '.data/TopSky Shared/'
 Index_Name = '.Index.txt'
+
+# Daylight savings times correct for Mar/Oct 2026 - requires update before AIRAC 2027/03
+UTCEnd = "0328"
+DaylightSavingsTimeStart = "0329"
+DaylightSavingsTimeEnd = "1025"
+UTCStart = "1026"
 #endregion
 
 def main():
@@ -115,6 +121,8 @@ def Construct(Folder, Files, Output):
                 shutil.copyfileobj(InputFile, OutputFile)
                 OutputFile.write(b'\n\n') # 2 new lines required to append a blank line at the end of each individual file
     
+    ApplyDaylightSavings(Folder + Output)
+    
     # Copy output from iTEC to NERC, NODE, and NOVA - more efficient
     shutil.copy(iTEC_Path + Output, NERC_Path + Output)
     shutil.copy(iTEC_Path + Output, NODE_Path + Output)
@@ -133,6 +141,20 @@ def ImportFileIndex(Folder):
                 print('Entry ' + Entry + ' in ' + Shared_Path + Folder + Index_Name + ' has been excluded!')
     return Files
 #endregion
+
+def ApplyDaylightSavings(Filename):
+    f = open(Filename,'r')
+    FileData = f.read()
+    f.close()
+    
+    FileData = FileData.replace("UTC(E)", UTCEnd)
+    FileData = FileData.replace("DST(S)", DaylightSavingsTimeStart)
+    FileData = FileData.replace("DST(E)", DaylightSavingsTimeEnd)
+    FileData = FileData.replace("UTC(E)", UTCStart)
+    
+    f = open(Filename,'w')
+    f.write(FileData)
+    f.close()
 
 def ChangeMilDangerAreaDefinition():
     with open(MIL_Path + 'TopSkyAreas.txt', 'r') as File:
