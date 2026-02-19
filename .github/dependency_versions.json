@@ -23,7 +23,7 @@
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
-    "message": "2.2.8.23",
+    "message": "2.2.8.24",
     "color": "blue",
     "repo": "rpuig2001/CDM"
   },
@@ -44,7 +44,7 @@
   "VFPC": {
     "schemaVersion": 1,
     "label": "VFPC",
-    "message": "3.6.4",
+    "message": "3.7.0",
     "color": "blue",
     "repo": "VFPC/VFPC"
   },
