@@ -1,11 +1,10 @@
-x. Enhancement - Added TopSky to Military APC profile - thanks to @Liaely (Lily Unitt)
-x. Enhancement - Removed real world TopSky SUA activations - thanks to @Liaely (Lily Unitt)
-x. Bug - Corrected danger area EGD098H naming - thanks to @Liaely (Lily Unitt)
-
 # Changes from release 2026/01 to 2026/02
 1. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)
 2. Bug - Fixed incorrect runway in use for EGSS (Stansted) in vATIS area profiles
 3. Enhancement - Amended radar track symbols on NERC (LAC) profiles
+4. Enhancement - Added TopSky to Military APC profile - thanks to @Liaely (Lily Unitt)
+5. Enhancement - Removed real world TopSky SUA activations - thanks to @Liaely (Lily Unitt)
+6. Bug - Corrected danger area EGD098H naming - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
