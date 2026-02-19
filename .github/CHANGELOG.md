@@ -1,3 +1,6 @@
+# Changes from release 2026/02 to 2026/03
+1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
+
 # Changes from release 2026/01 to 2026/02
 1. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)
 2. Bug - Fixed incorrect runway in use for EGSS (Stansted) in vATIS area profiles
