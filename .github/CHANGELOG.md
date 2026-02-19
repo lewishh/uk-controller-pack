@@ -10,6 +10,7 @@
 9. Bug/Enhancement - VACS Profile Improvements (added a number of useful missing positions and aliases)
 10. AIRAC (2602) - Update Southend (EGMC) SMAA altitudes
 11. Enhancement - Added missing aerodrome airspace bases - thanks to @spacenano (Samuel Lefevre)
+12. Enhancement - Added RNP Approach fix symbols to TC Approach posistions - Thanks to @spacenano (Samuel Lefevre)
 
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
