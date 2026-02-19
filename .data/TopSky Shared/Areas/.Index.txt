@@ -236,13 +236,13 @@ Danger/EGD902H.txt
 Prohibited/EGP611.txt
 Prohibited/EGP813.txt
 Restricted/EGR161.txt
+Restricted/EGR162.txt
 Restricted/EGR219.txt
 Restricted/EGR610A.txt
 Restricted/EGR610B.txt
 Restricted/EGR610C.txt
 Restricted/EGR610D.txt
 Restricted/EGR704.txt
-Restricted/EGR SNESS.txt
 AARA/AARA 1.txt
 AARA/AARA 2.txt
 AARA/AARA 3.txt
